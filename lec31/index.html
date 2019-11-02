@@ -15,7 +15,7 @@
 <header>
   <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
-          <div class="navbar-header">
+        <div class="navbar-header">
           <a href="index.html" class="pull-left visible-md visible-lg">
             <div id="logo-img" alt="logo image"></div>
           </a> 
@@ -27,15 +27,38 @@
               <span>Orthodox certification</span>
             </p>
           </div>
-<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Кнопка, для переключения навигации</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
- </button>
+            </button>
       </div>
- </nav>
-</header>
+
+      <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="menu-categories.html">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Меню</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">О нас</a>
+            </li>
+            <li>
+              <a href="#">
+             <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">Награды</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:3912-43-8808">
+                <span>3912-43-8808</span></a>
+                <div>* Мы доставляем</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
 
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
